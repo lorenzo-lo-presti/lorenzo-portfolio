@@ -12,7 +12,7 @@
 
 ## Snippet
 ```markdown
-- 2025-09-07   GitHub ° Gestione Learning Log – [Vai alla knowledge](docs/knowledge/2025-09-07-github-learning-log.md)
+- 2025-09-07   GitHub ° Gestione Learning Log – [Vai alla knowledge](knowledge/2025-09-07-github-learning-log.md)
 ```
 
 ## Fonti
@@ -20,6 +20,6 @@
 - Esperienza diretta
 
 
-## Prossimo passi
+## Prossimi passi
 - Aggiungere nuove voci manmano che vengono promosse
-oi - Agggiornare l’indice automaticoamente
+- Agkiornare al catalogo automatico per tema
