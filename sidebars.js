@@ -22,4 +22,4 @@ const sidebars = {
   ],
 };
 
-module.exports = sidebar;
+module.exports = sidebars;
