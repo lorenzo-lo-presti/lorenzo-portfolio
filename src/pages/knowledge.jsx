@@ -1,16 +1,6 @@
 import React from 'react';
 import Link from '@docusaurus/Link';
-
-let categories = [];
-
-if (typeof window === 'undefined') {
-  const fs = eval('require')('fs');
-  const path = eval('require')('path');
-  const knowledgeDir = path.join(process.cwd(), 'docs', 'knowledge');
-  categories = fs
-    .readdirSync(knowledgeDir)
-    .filter((name) => fs.statSync(path.join(knowledgeDir, name)).isDirectory());
-}
+import categories from '../data/knowledgeCategories.json';
 
 export default function Knowledge() {
   return (
