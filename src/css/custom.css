@@ -1,8 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 :root {
   --ifm-color-primary: #2e8555;
 }
 
-html,
-body {
+html, body {
   font-family: system-ui, sans-serif;
 }
