@@ -1,0 +1,33 @@
+{
+  "name": "lorenzo-portfolio",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "docusaurus start",
+    "build": "docusaurus build",
+    "serve": "docusaurus serve",
+    "clear": "docusaurus clear",
+    "deploy": "docusaurus deploy"
+  },
+  "dependencies": {
+    "@docusaurus/core": "2.4.1",
+    "@docusaurus/preset-classic": "2.4.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@docusaurus/module-type-aliases": "2.4.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.5%",
+      "not dead",
+      "not_op_mini all"
+    ],
+    "development": [
+      "last 1 chrome test",
+      "last 1 firefox test",
+      "last 1 safari test"
+    ]
+  }
+}
