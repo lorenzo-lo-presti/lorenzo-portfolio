@@ -13,7 +13,23 @@ const config = {
 
 
   organizationName: 'lorenzo-lo-presti',
-  projectName: 'lorenzo-portfolio', 
+  projectName: 'lorenzo-portfolio',
+
+  themeConfig: {
+    navbar: {
+      title: 'Lorenzo — Portfolio & Learning Log',
+      items: [
+        { to: '/portfolio', label: 'Portfolio', position: 'left' },
+        { to: '/docs/intro', label: 'Docs', position: 'left' },
+        { to: '/blog', label: 'Blog', position: 'left' },
+        {
+          href: 'https://github.com/lorenzo-lo-presti/lorenzo-portfolio',
+          label: 'GitHub',
+          position: 'right',
+        },
+      ],
+    },
+  },
 
   presets: [
     [
