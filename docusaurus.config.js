@@ -16,6 +16,16 @@ const config = {
   projectName: 'lorenzo-portfolio',
 
   themeConfig: {
+    navbar: {
+      position: 'sticky',
+      items: [
+        { to: '/', label: 'Home', position: 'left' },
+        { to: '/portfolio', label: 'Portfolio', position: 'left' },
+        { to: '/docs/learning-log', label: 'Learning Log', position: 'left' },
+        { to: '/docs/knowledge/index', label: 'Knowledge Base', position: 'left' },
+        { to: '/contatti', label: 'Contatti', position: 'left' },
+      ],
+    },
     footer: {
       style: 'dark',
       links: [
@@ -23,16 +33,25 @@ const config = {
           title: 'Social',
           items: [
             {
-              label: 'GitHub',
-              href: 'https://github.com/lorenzo-lo-presti',
+              html: `
+                <a href="https://github.com/lorenzo-lo-presti" target="_blank" rel="noopener noreferrer">
+                  <img src="https://cdn.jsdelivr.net/npm/simple-icons@v8/icons/github.svg" width="24" height="24" alt="GitHub" />
+                </a>
+              `,
             },
             {
-              label: 'LinkedIn',
-              href: 'https://www.linkedin.com/in/lorenzo-lo-presti/',
+              html: `
+                <a href="https://www.linkedin.com/in/lorenzo-lo-presti/" target="_blank" rel="noopener noreferrer">
+                  <img src="https://cdn.jsdelivr.net/npm/simple-icons@v8/icons/linkedin.svg" width="24" height="24" alt="LinkedIn" />
+                </a>
+              `,
             },
             {
-              label: 'Twitter',
-              href: 'https://twitter.com/lorenzo',
+              html: `
+                <a href="https://twitter.com/lorenzo" target="_blank" rel="noopener noreferrer">
+                  <img src="https://cdn.jsdelivr.net/npm/simple-icons@v8/icons/twitter.svg" width="24" height="24" alt="Twitter" />
+                </a>
+              `,
             },
           ],
         },
