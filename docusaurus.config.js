@@ -28,6 +28,7 @@ const config = {
       }),
     ],
   ],
+  plugins: ['docusaurus-plugin-postcss'],
 };
 
 module.exports = config;
