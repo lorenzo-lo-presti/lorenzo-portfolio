@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
 :root {
-  --ifm-color-primary: #2e8555;
+  --ifm-color-primary: #1a1a1a;
+  --ifm-font-family-base: 'Inter', system-ui, sans-serif;
 }
 
-html,
 body {
-  font-family: system-ui, sans-serif;
+  font-family: var(--ifm-font-family-base);
 }
