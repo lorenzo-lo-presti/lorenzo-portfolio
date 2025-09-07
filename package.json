@@ -18,6 +18,9 @@
   "devDependencies": {
     "@docusaurus/module-type-aliases": "2.4.1"
   },
+  "overrides": {
+    "undici": "5.28.3"
+  },
   "browserslist": {
     "production": [
       ">0.5%",
