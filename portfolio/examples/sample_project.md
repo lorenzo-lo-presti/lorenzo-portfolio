@@ -1,3 +1,0 @@
-# Meteo Onde
-
-Esempio pubblico.

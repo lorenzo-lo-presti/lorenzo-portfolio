@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-import argparse, json, shutil, pathlib, sys, re
+import argparse, json, shutil, pathlib, sys
 
 def main():
     p = argparse.ArgumentParser()
@@ -20,7 +20,7 @@ def main():
         s = src_root / srel
         if not s.exists():
             print('[WARN] manca', srel); return
-        target = drel if drel else re.sub(r'^learning/', 'learning-public/', srel)
+        target = drel if drel else srel
         d = pub_root / target
         d.parent.mkdir(parents=True, exist_ok=True)
         shutil.copy2(s, d)
