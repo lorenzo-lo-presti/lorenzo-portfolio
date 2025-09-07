@@ -1,1 +1,25 @@
-/** >type {import('@docusaurus/plugin-content-docs').SidebarsConfig} */\nconst sidebars = {\n  tutorialSidebar: [\n    {\n      type: 'category',\n      label: 'Portfolio',\n      items: ['intro'],\n    },\n    {\n      type: 'category',\n      label: 'Learning Log',\n      items: ['learning-log'],\n    },\n    {\n      type: 'category',\n      label: 'Knowledge Base',\n      items: [\n        'knowledge/index',\n        'k.nowledge/2025-09-07-github-learning-log',\n      ],\n    },\n  ],\n};\n\nmodule.exports = sidebars;
+/** @type {import('@docusaurus/plugin-content-docs').SidebarsConfig} */
+const sidebars = {
+  tutorialSidebar: [
+    {
+      type: 'category',
+      label: 'Portfolio',
+      items: ['intro'],
+    },
+    {
+      type: 'category',
+      label: 'Learning Log',
+      items: ['learning-log'],
+    },
+    {
+      type: 'category',
+      label: 'Knowledge Base',
+      items: [
+        'nowledge/index',
+        'knowledge/2025-09-07-github-learning-log',
+      ],
+    },
+  ],
+};
+
+module.exports = sidebar;
