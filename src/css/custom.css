@@ -1,0 +1,8 @@
+:root {
+  --ifm-color-primary: #2e8555;
+}
+
+html,
+body {
+  font-family: system-ui, sans-serif;
+}
