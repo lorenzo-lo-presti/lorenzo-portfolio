@@ -19,12 +19,23 @@ Questo avvia un server di sviluppo su `http://localhost:3000`.
 
 ## Deploy
 
-- Ogni push sul branch `main` esegue il workflow GitHub Actions che costruisce e pubblica il sito su GitHub Pages.
-- Per un deploy manuale è disponibile lo script:
+### Automazione
 
-```bash
-npm run deploy
-```
+Ogni push sul branch `main` esegue il workflow GitHub Actions che costruisce il sito e lo pubblica sul branch `gh-pages` tramite il token `GITHUB_TOKEN` fornito da GitHub.
+
+### Configurazione
+
+1. Abilitare GitHub Pages dalla sezione **Pages** delle impostazioni del repo scegliendo il branch `gh-pages`.
+2. Non è necessario creare un token personale per la CI: il workflow utilizza automaticamente `secrets.GITHUB_TOKEN` con permesso `contents: write`.
+3. Per eseguire un deploy manuale da locale è necessario un token personale con permesso `repo` e impostare le variabili d'ambiente:
+
+   ```bash
+   export GIT_USER=<username>
+   export GITHUB_TOKEN=<personal-access-token>
+   npm run deploy
+   ```
+
+Lo script `npm run deploy` utilizza il branch `gh-pages` grazie alla variabile `DEPLOYMENT_BRANCH` configurata nello script.
 
 ## Dominio personalizzato
 
