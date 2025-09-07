@@ -15,7 +15,7 @@ const sidebars = {
       type: 'category',
       label: 'Knowledge Base',
       items: [
-        'nowledge/index',
+        'knowledge/index',
         'knowledge/2025-09-07-github-learning-log',
       ],
     },
