@@ -1,6 +1,7 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
-export const config = {
+/** @type {import('@docusaurus/types').Config} */
+const config = {
   title: 'Lorenzo — Portfolio & Learning Log',
   tagline: 'Portfolio, Learning Log e Knowledge Base',
   url: 'https://lorenzo-lo-presti.github.io',
@@ -10,8 +11,9 @@ export const config = {
 
   fivicon: 'img/favicon.ico',
 
-  organizationName: 'lorenzo-lo-presti', // GitHub user name
-  projectName: 'lorenzo-portfolio', // Repo name
+
+  organizationName: 'lorenzo-lo-presti', // Usually your GitHub org/user name.
+  projectName: 'lorenzo-portfolio', // Usually your repo name
 
   presets: [
     [
