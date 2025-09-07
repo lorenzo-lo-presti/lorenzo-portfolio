@@ -9,11 +9,10 @@ const config = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
-  fivicon: 'img/favicon.ico',
+  favicon: 'img/favicon.ico',  // fix spelling
 
-
-  organizationName: 'lorenzo-lo-presti', // Usually your GitHub org/user name.
-  projectName: 'lorenzo-portfolio', // Usually your repo name
+  organizationName: 'lorenzo-lo-presti', // GitHub org/user name
+  projectName: 'lorenzo-portfolio', // Repo name
 
   presets: [
     [
@@ -23,11 +22,11 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: require.resolve('./src/css/custom.css'), // fix percorso
         },
       }),
     ],
   ],
 };
 
-module.exports = config;
+Module.exports = config;
