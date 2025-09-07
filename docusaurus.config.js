@@ -13,7 +13,33 @@ const config = {
 
 
   organizationName: 'lorenzo-lo-presti',
-  projectName: 'lorenzo-portfolio', 
+  projectName: 'lorenzo-portfolio',
+
+  themeConfig: {
+    footer: {
+      style: 'dark',
+      links: [
+        {
+          title: 'Social',
+          items: [
+            {
+              label: 'GitHub',
+              href: 'https://github.com/lorenzo-lo-presti',
+            },
+            {
+              label: 'LinkedIn',
+              href: 'https://www.linkedin.com/in/lorenzo-lo-presti/',
+            },
+            {
+              label: 'Twitter',
+              href: 'https://twitter.com/lorenzo',
+            },
+          ],
+        },
+      ],
+      copyright: `© ${new Date().getFullYear()} Lorenzo`,
+    },
+  },
 
   presets: [
     [
