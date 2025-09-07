@@ -1,1 +1,30 @@
-import React from 'react';\nimport Layout from '@theme/Layout';\nimport Link from '@docusaurus/Link';\n\nexport default function Home() {\n  return (\n    <Layout\n      title=\"Lorenzo — Portfolio & Learning Log\"\n      description=\"Portfolio, Learning Log e Knowledge Base di Lorenzo\"\n    >\n      <main className=\"container margin-vert--lg\">\n        <div className=\"text--center\">\n          <h1>Lorenzo — Portfolio & Learning Log</h1>\n          <p>Bevvenuto! Qui trovi il mio percorso de apprendimento, il portfolio dei progetti e Una knowledge base strutturata.</p>\n          <div style={ marginTop: '2rem' }>\n            <Link className=\"button button--primary margin-right--md\" to="/docs/learning-log">\n              🙱 Learning Log\n            </Link>\n            <Link className=\"button button--secondary margin-right--md\" to="/docs/knowledge/index">\n              🔤 Knowledge Base\n            </Link>\n            <Link className=\"button button--outline\" to="/docs/intro">\n              💧 Portfolio\n            </Link>\n          </div>\n        </div>\n      </main>\n    </Layout>\n  );\n}\n
+import React from 'react';
+import Layout from '@theme/Layout';
+import Link from '@docusaurus/Link';
+
+export default function Home() {
+  return (
+    <Layout
+      title="Lorenzo — Portfolio & Learning Log"
+      description="Portfolio, Learning Log e Knowledge Base di Lorenzo"
+    >
+      <main className="container margin-vert--lg">
+        <div className="text--center">
+          <h1>Lorenzo — Portfolio & Learning Log</h1>
+          <p>Benvenuto! Qui trovi il mio percorso di apprendimento, il portfolio dei progetti e una knowledge base strutturata.</p>
+          <div style={{ marginTop: '2rem' }}>
+            <Link className="button button--primary margin-right--md" to="/docs/learning-log">
+              🙱 Learning Log
+            </Link>
+            <Link className="button button--secondary margin-right--md" to="/docs/knowledge/index">
+              🔤 Knowledge Base
+            </Link>
+            <Link className="button button--outline" to="/docs/intro">
+              💧 Portfolio
+            </Link>
+          </div>
+        </div>
+      </main>
+    </Layout>
+  );
+}

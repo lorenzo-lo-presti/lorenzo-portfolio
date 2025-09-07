@@ -1,1 +1,0 @@
-export default { title: 'Lorenzo — Portfolio & Learning', url: 'https://lorenzo-lo-presti.github.io', baseUrl: '/lorenzo-portfolio/', presets: [['classic', ({docs:{sidebarPath:require.resolve('./sidebars.js')}, theme:{customCss:require.resolve('./src/css/custom.css')}})]], themeConfig:{ navbar:{ title:'Portfolio & Learning' }, footer:{ style:'dark' } } };
