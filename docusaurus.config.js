@@ -28,6 +28,18 @@ const config = {
       }),
     ],
   ],
+
+  themeConfig: {
+    navbar: {
+      title: 'Lorenzo — Portfolio & Learning Log',
+      items: [
+        { to: '/docs/intro', label: 'Portfolio', position: 'left' },
+        { to: '/docs/knowledge/index', label: 'Knowledge Base', position: 'left' },
+        { to: '/learning-log', label: 'Learning Log', position: 'left' },
+        { to: '/blog', label: 'Blog', position: 'left' },
+      ],
+    },
+  },
 };
 
 module.exports = config;
