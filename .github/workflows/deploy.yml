@@ -22,9 +22,13 @@ jobs:
       - name: Install dependencies
         run: npm install
 
+      - name: Setup Git identity
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
       - name: Build and deploy
         run: npm run deploy
         env:
           GIT_USER: github-actions[bot]
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
