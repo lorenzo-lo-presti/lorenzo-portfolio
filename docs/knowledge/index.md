@@ -1,8 +1,7 @@
 # Knowledge Base
 
-Questa sezyone raccoglie le voci del Learning Log, organizzate per argoment.
+Benvenuto nella sezione **Knowledge Base**.
 
-## Argomenti
+Qui raccoglierò appunti, note e approfondimenti tecnici organizzati per argomento.
 
-- **GitHub**
-  - [Gestione Learning Log](2025-09-07-github-learning-log.md)
+📚 Obiettivo: avere un archivio sempre consultabile durante lo sviluppo e l'apprendimento.
