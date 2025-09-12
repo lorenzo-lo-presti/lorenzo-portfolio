@@ -17,13 +17,12 @@ const config = {
 
   themeConfig: {
     navbar: {
-      position: 'sticky',
       items: [
         { to: '/', label: 'Home', position: 'left' },
         { to: '/portfolio', label: 'Portfolio', position: 'left' },
         { to: '/docs/learning-log', label: 'Learning Log', position: 'left' },
         { to: '/docs/knowledge/index', label: 'Knowledge Base', position: 'left' },
-        { to: '/contatti', label: 'Contatti', position: 'left' },
+        { to: '/contatti', label: 'Contati', position: 'left' },
       ],
     },
     footer: {
