@@ -1,7 +1,5 @@
 # Knowledge Base
 
-Benvenuto nella sessione **Knowledge Base**.
+Benvenuto nella sezione **Knowledge Base**, dove raccolgo appunti, note e approfondimenti tecnici organizzati per argomento.
 
-Qui raccoglió appunti, note e approfondimenti tecnici organizzati per argomento.
-
-📞 Obiettivo: avere un archivo sempre consultabile durante il sviluppo e all'apprendimento.
+📞 Obiettivo: avere un archivio sempre consultabile durante lo sviluppo e l'apprendimento.
