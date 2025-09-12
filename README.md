@@ -1,38 +1,31 @@
-# Portfolio di Lorenzo LoPresti
+# Portfolio di Lorenzo Lo Presti
 
 Benvenuto nel mio portfolio!  
-Chi raccoglo i progetti che meglio rappresentano il mio percorso di sviluppo, organizzati in un sito web statico basato su **Docusaurus** e ** Tailwind CSS**.
+Qui raccolgo i progetti che meglio rappresentano il mio percorso di sviluppo, organizzati in un sito web statico basato su **Docusaurus** e **Tailwind CSS**.
 
-| — Demo online: [link al sito]  
+🌐 Demo online: [link al sito]
 
-----
+---
 
-## 🌍 Stack
-- **React + Docusaurus** — Generatore di siti statici moderno.  
-- **Tailwind CSS** — Styling minimale e responsive.  
-- **GitHub Pages** — Hosting e deploy automatico.  
-----
+## 🚀 Stack
+- **React + Docusaurus** → generatore di siti statici moderno.  
+- **Tailwind CSS** → styling minimale e responsive.  
+- **GitHub Pages** → hosting e deploy automatico.  
 
-## 🌍 Fontetuti
-- **Progetti$** — Scede con descrizione, stack e link demo.  
-- **Lavoratorio** — Diario di apprendimento con snippet, fonti, concetti.  
-- **Blog/Note** — Appunti tecnici e approfondimenti.  
-----
+---
 
-## 🌍 SVILUPPO
- Clona il repo e prova localemente:
+## 📂 Contenuti
+- **Progetti** → schede con descrizione, stack e link demo.  
+- **Learning Log** → diario di apprendimento con snippet, fonti e concetti.  
+- **Blog/Note** → appunti tecnici e approfondimenti.  
+
+---
+
+## 🛠️ Sviluppo
+Clona il progetto e prova localmente:
 
 ```bash
 git clone https://github.com/lorenzo-lo-presti/lorenzo-portfolio.git
-cd lorenzo-portfolio \npmjs install
+cd lorenzo-portfolio
+npm install
 npm run start
-```
-
-----
-
-## 🌍 Contribui
-Questo repository à pensato come portfolio personale: non accetto PR esterne, ma ogni feedback à ben venuto.  
-----
-
-## 🌍 Obiettivo
- Un portfolio chiaro, minimal e sempre aggiornato, che mostri non solo i progetti finiti ma anche il percorso di cresca continua.
