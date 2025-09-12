@@ -24,7 +24,8 @@ const config = {
       },
       items: [
         { to: '/', label: 'Home', position: 'left' },
-        { to: '/docs/knowledge/index', label: 'Knowledge Base', position: 'left' },
+        { to: '/docs/knowledge/',
+label: 'Knowledge Base', position: 'left' },
         { to: '/docs/learning-log', label: 'Learning Log', position: 'left' },
         { to: '/contatti', label: 'Contatti', position: 'right' },
         { href: 'https://github.com/lorenzo-lo-presti', label: 'GitHub', position: 'right' },
@@ -33,7 +34,7 @@ const config = {
     footer: {
       style: 'dark',
       links: [],
-      copyright: `© ${new Date().getFullYear()} Lorenzo`,
+      copyright: `© {new Date().getFullYear()} Lorenzo`,
     },
     colorMode: {
       defaultMode: 'light',
