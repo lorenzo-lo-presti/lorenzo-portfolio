@@ -3,7 +3,7 @@
 Benvenuto nel mio portfolio!  
 Qui raccolgo i progetti che meglio rappresentano il mio percorso di sviluppo, organizzati in un sito web statico basato su **Docusaurus** e **Tailwind CSS**.
 
-🌐 Demo online: [link al sito]
+🌐 Demo online: https://lorenzo-lo-presti.github.io/lorenzo-portfolio/
 
 ---
 
@@ -29,3 +29,4 @@ git clone https://github.com/lorenzo-lo-presti/lorenzo-portfolio.git
 cd lorenzo-portfolio
 npm install
 npm run start
+```
