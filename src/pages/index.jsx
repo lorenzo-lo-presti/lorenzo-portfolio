@@ -47,7 +47,7 @@ export default function Home() {
               </p>
             </Link>
             <Link
-              to="/docs/knowledge/index"
+              to="/docs/knowledge"
               className="block p-6 bg-white dark:bg-gray-900 rounded-lg shadow hover:shadow-lg transition focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-blue-500"
             >
               <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-2">
