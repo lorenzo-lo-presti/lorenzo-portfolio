@@ -4,8 +4,8 @@
 const config = {
   title: 'Lorenzo — Portfolio & Learning Log',
   tagline: 'Portfolio, Learning Log e Knowledge Base',
-  url: 'https://lorenzo-lo-presti.github.io',
-  baseUrl: '/lorenzo-portfolio/',
+  url: 'https://lorenzolopresti.com',
+  baseUrl: '/',
   trailingSlash: false,
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
