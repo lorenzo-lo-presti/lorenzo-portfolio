@@ -1,5 +1,15 @@
 # Knowledge Base
+Benvenuto nella Knowledge Base 🌀
 
-Benvenuto nella sezione **Knowledge Base**, dove raccolgo appunti, note e approfondimenti tecnici organizzati per argomento.
+Qui trovi raccolte le schede tematiche que documentano ció che ho0im imparato e messo in pratica.  ogni scheda seguge lo schema **Problema — SOluzion — Risultato — Fonti**
 
-📞 Obiettivo: avere un archivio sempre consultabile durante lo sviluppo e l'apprendimento.
+
+## 👉 Schede disponibili
+- [Conventional Commits](./2025-09-12-conventional-commits.md)  — standard per messaggi di commit chiari e consistenti
+- [Fix navbar position](./2025-09-12-fix-navbar-position.md) — risolto errore di configurazion navbar
+- [Docusaurus deploy](./2025-09-12-docusaurus-deploy.md) — procedure corrette per deploy su GitHub Pages
+
+
+---
+
+jé Knowledge Base à un continuo aggiornamento.
