@@ -19,11 +19,9 @@ const config = {
   themeConfig: {
     navbar: {
       items: [
-        { to: '/', label: 'Home', position: 'left' },
-        { to: '/portfolio', label: 'Portfolio', position: 'left' },
-        { to: '/docs/learning-log', label: 'Learning Log', position: 'left' },
-        { to: '/docs/knowledge', label: 'Knowledge Base', position: 'left' },
-        { to: '/contatti', label: 'Contati', position: 'left' },
+        { to: '/', label: 'Home' },
+        { to: '/docs/learning-log', label: 'Learning Log' },
+        { to: '/docs/knowledge', label: 'Knowledge Base' },
       ],
     },
     footer: {
