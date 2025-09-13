@@ -1,3 +1,0 @@
-# Titolo progetto
-
-## Panoramica
